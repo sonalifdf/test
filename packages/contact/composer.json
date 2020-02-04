@@ -1,0 +1,25 @@
+{
+    "name": "bitfumes/contact",
+    "description": "ave contact",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+	 "authors": [
+        {
+            "name": "Bitfumes",
+            "email": "bitfumes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bitfumes\\Contact\\": "src/"
+        }
+    },
+   "extra": {
+        "laravel": {
+            "providers": [
+			"Bitfumes\\Contact\ContactServiceProvider"]
+        }
+    },
+}

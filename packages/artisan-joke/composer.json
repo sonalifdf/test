@@ -1,0 +1,26 @@
+{
+    "name": "laracademy/artisan-joke",
+    "description": "package",
+    "require": {
+        "guzzlehttp/psr7": "^2.0@dev"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Francis Macugay",
+            "email": "francis01@simplexi.com.ph"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "Laracademy\\": "src/"
+        }
+    },
+	"extra": {
+        "laravel": {
+            "providers": [
+			"Laracademy\\Commands\ArtisanJokeServiceProvider"]
+        }
+    },
+}
